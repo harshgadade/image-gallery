@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+body{
+    background-color: rgb(44, 44, 84);
+}
+
+nav{
+    /* border: 10px double red; */
+    background-color: rgb(170, 166, 157);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    gap: 20px;
+    padding: 10px;
+}
+
+
+ul li{
+    list-style-type: none;
+}
+
+ul a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:  rgb(44, 44, 84);
+}
+
+#search{
+    width: 500px;
+    text-align: center;
+}
+
+#m1{
+    margin-top: 20px;
+}
+
+
+@media (max-width:768px){
+    header nav{
+        flex-direction: column;
+        gap:5px;
+    }
+
+    ul a{
+        font-size: 18px;
+    }
+
+    #search{
+        width: 300px;
+    }
+}

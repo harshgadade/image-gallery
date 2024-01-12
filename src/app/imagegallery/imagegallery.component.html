@@ -1,0 +1,42 @@
+<!-- <p>imagegallery works!</p> -->
+<header>
+    <nav>
+        <div>
+            <img src="../../assets/images.png" alt="logo" width="80px">
+        </div>
+
+        <div>
+            <input type="search" class="form-control" placeholder="Search here" id="search" [(ngModel)]="searchText">
+        </div>
+        
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main id="m1">
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm-5 col-md-4 my-3" *ngFor="let img of imggal | searchpipe : searchText">
+                <div class="card h-100">
+                    <div class="card-header bg-dark">
+                        <img src="{{img.img1}}" alt="img" class="img-fluid rounded-top">
+                    </div>
+                    <div class="card-body text-center">
+                       <strong>{{img.name}}</strong> 
+                    </div>
+                    <div class="card-footer d-flex justify-content-center align-items-center gap-3">
+                        <button class="btn btn-outline-primary">View</button>
+                        <a href="{{img.img1}}" download="img1"><input type="button" value="Download" class="btn btn-success text-white"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
