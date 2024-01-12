@@ -15,28 +15,31 @@ export class ApicallService {
 
     return [
       {
-        "img1" : "https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&w=600",
-        "name" : "Mountain"
+        "img1" : "https://images.pexels.com/photos/68695/aoraki-mount-cook-mountain-new-zealand-68695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Mountain",
+        "path" : "../../../assets/mountain 1.jpg"
+      },
+      // {
+      //   "img1" : "../../../assets/mountain2.jpg",
+      //   "name": "Mountain",
+      //   "path": "../../../assets/mountain2.jpg"
+      // },
+      {
+        "img1" : "https://images.pexels.com/photos/4275885/pexels-photo-4275885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Mountain",
+        "path" : "../../../assets/mountain 3.jpg"
       },
       {
-        "img1" : "https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "name" : "Mountain"
+        "img1" : "https://images.pexels.com/photos/1574843/pexels-photo-1574843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Mountain"
       },
       {
-        "img1" : "https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "name" : "Mountain"
+        "img1" : "https://images.pexels.com/photos/225203/pexels-photo-225203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Mountain"
       },
       {
-        "img1" : "https://images.pexels.com/photos/67517/pexels-photo-67517.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "name" : "Mountain"
-      },
-      {
-        "img1" : "https://images.pexels.com/photos/629161/pexels-photo-629161.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "name" : "Mountain"
-      },
-      {
-        "img1" : "https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&w=600",
-        "name" : "Mountain"
+        "img1" : "https://images.pexels.com/photos/213825/pexels-photo-213825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Mountain"
       },
       {
         "img1" : "https://images.pexels.com/photos/176400/pexels-photo-176400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -51,24 +54,13 @@ export class ApicallService {
         "name": "Beach"
       },
       {
-        "img1" : "https://images.pexels.com/photos/262325/pexels-photo-262325.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "name": "Beach"
-      },
-      {
-        "img1" : "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "name": "Beach"
-      },
-      {
-        "img1" : "https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "name": "Beach"
-      },
-      {
         "img1" : "https://images.pexels.com/photos/4651250/pexels-photo-4651250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "name": "Car"
       },
       {
         "img1" : "https://images.pexels.com/photos/253096/pexels-photo-253096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "name": "Car"
+        "name": "Car",
+        "path" : "../../../assets/car2.jpg"
       },
       {
         "img1" : "https://images.pexels.com/photos/13980815/pexels-photo-13980815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -108,8 +100,9 @@ export class ApicallService {
       },
       {
         "img1" : "https://images.pexels.com/photos/11537018/pexels-photo-11537018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "name": "bike"
+        "name": "Bike"
       }
+      
     ]
   }
 
