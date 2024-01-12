@@ -15,12 +15,14 @@ export class ImagegalleryComponent implements OnInit{
   imggal:any
 
   ngOnInit(): void {
-    this.imggal = this.api.getdata().subscribe(
-      (data:any)=>{
-          // console.log(data);
-          this.imggal = data;
-    });
-    console.log(this.imggal)
+    // this.imggal = this.api.getdata().subscribe(
+    //   (data:any)=>{
+    //       // console.log(data);
+    //       this.imggal = data;
+    // });
+    // console.log(this.imggal)
+
+    this.imggal = this.api.getdata();
   }
 
 
